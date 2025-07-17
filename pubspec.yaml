@@ -5,4 +5,5 @@ dependencies:
   http: ^1.0.0
   intl: ^0.18.0
   qr: ^3.0.2
+  path: ^1.9.1
 

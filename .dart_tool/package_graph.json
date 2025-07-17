@@ -9,9 +9,15 @@
       "dependencies": [
         "http",
         "intl",
+        "path",
         "qr"
       ],
       "devDependencies": []
+    },
+    {
+      "name": "path",
+      "version": "1.9.1",
+      "dependencies": []
     },
     {
       "name": "qr",
@@ -42,11 +48,6 @@
     {
       "name": "meta",
       "version": "1.17.0",
-      "dependencies": []
-    },
-    {
-      "name": "path",
-      "version": "1.9.1",
       "dependencies": []
     },
     {
