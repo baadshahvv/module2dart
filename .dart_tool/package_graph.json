@@ -7,9 +7,27 @@
       "name": "module2dart",
       "version": "0.0.0",
       "dependencies": [
-        "http"
+        "http",
+        "intl",
+        "qr"
       ],
       "devDependencies": []
+    },
+    {
+      "name": "qr",
+      "version": "3.0.2",
+      "dependencies": [
+        "meta"
+      ]
+    },
+    {
+      "name": "intl",
+      "version": "0.18.1",
+      "dependencies": [
+        "clock",
+        "meta",
+        "path"
+      ]
     },
     {
       "name": "http",
@@ -20,6 +38,21 @@
         "meta",
         "web"
       ]
+    },
+    {
+      "name": "meta",
+      "version": "1.17.0",
+      "dependencies": []
+    },
+    {
+      "name": "path",
+      "version": "1.9.1",
+      "dependencies": []
+    },
+    {
+      "name": "clock",
+      "version": "1.1.2",
+      "dependencies": []
     },
     {
       "name": "web",
@@ -37,9 +70,12 @@
       ]
     },
     {
-      "name": "collection",
-      "version": "1.19.1",
-      "dependencies": []
+      "name": "async",
+      "version": "2.13.0",
+      "dependencies": [
+        "collection",
+        "meta"
+      ]
     },
     {
       "name": "typed_data",
@@ -65,26 +101,13 @@
       ]
     },
     {
+      "name": "collection",
+      "version": "1.19.1",
+      "dependencies": []
+    },
+    {
       "name": "term_glyph",
       "version": "1.2.2",
-      "dependencies": []
-    },
-    {
-      "name": "path",
-      "version": "1.9.1",
-      "dependencies": []
-    },
-    {
-      "name": "async",
-      "version": "2.13.0",
-      "dependencies": [
-        "collection",
-        "meta"
-      ]
-    },
-    {
-      "name": "meta",
-      "version": "1.17.0",
       "dependencies": []
     }
   ],
